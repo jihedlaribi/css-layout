@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+#logo {
+  width: 268px;
+  height: 68px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+  cursor: pointer;
+}
+.menu-item {
+  margin-right: 20px;
+}
+.drop-menu {
+  display: none;
+  width: 200px;
+  margin-left: -40px;
+  background-color: white;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: #ababab;
+}
+.drop-menu-item {
+  list-style: none;
+}
+.menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.drop-menu-item:hover {
+  color: rgb(0, 179, 155);
+}
+.first-section {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .first-section h1 {
+    font: 400 34.5px "Work Sans", Arial, sans-serif;
+    color: rgb(0, 179, 155);
+  }
+.second-section {
+  display: flex;
+  margin: 0px 200px;
+  justify-content: space-between;
+}
+.second-section p {
+  width: 48%;
+  font: 400 16px Roboto, Arial, sans-serif;
+  line-height: 28px;
+  color: rgb(116, 116, 116);
+  text-align: justify;
+}
+.third-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 180px;
+
+  color: white;
+  line-height: 20px;
+}
+.patients {
+  background-color: #1ad1b9;
+  font: 100 20px "Work Sans", Arial, sans-serif;
+}
+.doctors {
+  background-color: #5190e2;
+  font: 100 20px "Work Sans", Arial, sans-serif;
+}
+.clinics {
+  background-color: #323d49;
+  font: 100 20px "Work Sans", Arial, sans-serif;
+}
+.third-section div {
+  width: 312px;
+  height: 290px;
+  margin: 20px 10px;
+  border-radius: 15px;
+  padding: 30px;
+}
+.third-section select {
+  background: transparent;
+  border: none;
+  font: 100 20px "Work Sans", Arial, sans-serif;
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+}
+.third-section option {
+  color: black;
+}
+.fourth-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.fourth-section h1 {
+  font: 300 26px "Work Sans", Arial, sans-serif;
+  width: 400px;
+  margin-right: 100px;
+  color: rgb(0, 179, 155);
+}
+.logos i {
+  color: rgb(116, 116, 116);
+}
+.logos i:hover {
+  color: rgb(0, 179, 155);
+}
+.fifth-section {
+  margin-top: 40px;
+  height: 600px;
+  width: 1350px;
+  background-color: #d5f6f6;
+  background-image: url("https://www.docplanner.com/img/logo.png");
+  background-repeat: no-repeat;
+  background-position-x: 50px;
+  background-position-y: 230px;
+  position: relative;
+  z-index: -1;
+}
+.fifth-section h1 {
+  font: 300 32px "Work Sans", Arial, sans-serif;
+  color: rgb(0, 179, 155);
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  width: 400px;
+}
+.fifth-section p {
+  font: 400 15px Roboto, Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  width: 450px;
+}
+.table {
+  position: absolute;
+  right: 120px;
+  display: flex;
+  color: rgb(0, 179, 155);
+  font: 100 16px "Work Sans", Arial, sans-serif;
+  margin-top: 40px;
+}
+.column-one {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.column-two {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+.column-one div {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  height: 220px;
+  padding: 15px;
+  margin-right: 20px;
+}
+.column-two div {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  height: 220px;
+  padding: 15px;
+}
+.column-two h6 {
+  color: rgb(116, 116, 116);
+}
+.column-one h6 {
+  color: rgb(116, 116, 116);
+}
+.section-six {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .section-six  h1 {
+      margin: 0px 450px;
+    font: 300 30px "Work Sans", Arial, sans-serif;
+    color: rgb(0, 179, 155);
+  }
+  .section-six p {
+      padding-top: 30px;
+    margin: 0px 450px;
+    
+  font: 400 16px Roboto, Arial, sans-serif;
+  line-height: 28px;
+  color: rgb(116, 116, 116);
+  text-align: center;
+  }
+  .section-seven {
+display:flex ;
+flex-wrap: wrap;
+margin: 100px;
+   
+
+  }
+
+  .warsaw { 
+
+      padding: 15px;
+
+
+
+  }
+  .warsaw1  {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+box-shadow: azure;
+  }
+  .warsaw1 h1 {
+      font:  Roboto, Arial, sans-serif;
+       font-size: 18px;
+       font-weight: 400px;
+       
+       color: rgb(116, 116, 116);
+
+    }
+    .warsaw1 button {
+        font:  Roboto, Arial, sans-serif;
+        font-size: 10px;
+        font-weight:700px;
+        background-color: #1662C6;
+        color: white;
+      margin-top: 10px;
+       border: none;
+       height: 25px;
+       width: 150px;  
+       cursor: pointer;
+    }
+    .section-eight {
+        text-align: center;
+        padding-top: 100px;
+    }
+   .section-eight h1 {
+    margin: 0px 450px;
+    font: 300 30px "Work Sans", Arial, sans-serif;
+    color:rgb(51, 51, 51)
+  
+   }
+   .section-eight button {
+    font:  Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight:700px;
+    background-color: #1662C6;
+    color: white;
+  margin-top: 10px;
+   border: none;
+   height: 40px;
+   width: 200px;  
+   cursor: pointer;
+   }
+   footer {
+     text-align: center;
+     margin-bottom: 0px;
+     margin-top: 80px;
+     margin-left: 80px;
+     margin-right: 80px;
+    
+   }
+   footer p {
+    text-align: center;
+    margin: 10%;
+    margin-bottom: 10px;
+    Font : Roboto, Arial, sans-serif;
+
+Font : 12px;
+
+weight: 400 ;
+
+color: rgb(171, 171, 171);
+     
+   }
+   .span  a {
+       color:#3D83DF ;
+   }
+     
